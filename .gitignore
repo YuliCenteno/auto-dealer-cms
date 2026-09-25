@@ -1,0 +1,46 @@
+# ----------------------------------------------------------------------
+# Archivos de entorno / Claves privadas (¡MUY IMPORTANTE!)
+# ----------------------------------------------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# ----------------------------------------------------------------------
+# Dependencias de Node.js
+# ----------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----------------------------------------------------------------------
+# Archivos de compilación / Build outputs (Vite / React)
+# ----------------------------------------------------------------------
+dist/
+dist-ssr/
+build/
+*.local
+
+# ----------------------------------------------------------------------
+# Archivos del sistema operativo / Editores de código
+# ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ----------------------------------------------------------------------
+# Caché de Vite / Herramientas de testing
+# ----------------------------------------------------------------------
+.vite/
+.eslintcache
+coverage/
